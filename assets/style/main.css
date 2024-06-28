@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* 共通 ここから */
+:root {
+  --white: #FFFFFF;
+  --light-gray: #DDDDDD;
+  --dark-gray: #333333;
+  --medium-gray: #CCCCCC;
+  --pink: #F23397;
+  --light-background: #F5F5F5;
+  --light-background-alt: #F5F5F5;
+  --bright-pink: #F11F8D;
+  --blue: #005BAC;
+  --black-opacity: #00000029;
+  --light-pink: #FFEDED;
+  --bright-blue: #0271E0;
+  --soft-blue: #53A2F0;
+  --very-light-blue: #F2F9FF;
+  --light-gray-alt: #F0F0F0;
+  --dark-gray-opacity: #33333380;
+  --teal: #3AC8AD;
+  --orange: #F6AA00;
+  --green: #77CB33;
+}
+/* ゆっくり遷移する */
+html {
+	scroll-behavior: smooth;
+}
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: var(--dark-gray);
+  letter-spacing: 0;
+  line-height: 1.75;
+  background-color: var(--white);
+}
+a {
+  text-decoration:none;
+}
+ul {
+  list-style: none;
+}
+/* 共通 ここまで */
+
+/* #header ここから */
+#header {
+  width: 120rem;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9.875rem;
+  height: 101px;
+  box-shadow: 0px 2px 8px var(--black-opacity);
+  padding-left: 23.75rem;
+}
+
+#header .header__title {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+#header .header__title a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.125;
+  color: var(--blue);
+  white-space: nowrap;
+}
+
+#header .menu {
+  display: flex;
+  gap: 3rem;
+}
+
+#header .menu ul {
+  display: flex;
+  gap: 3rem;
+  margin-top: 48px;
+  margin-bottom: 36px;
+}
+
+#header .menu ul li a {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: var(--dark-gray);
+  white-space: nowrap;
+}
+
+#header .menu ul li a:hover {
+  color: var(--bright-blue);
+}
+
+#header .menu .menu__button {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: var(--white);
+  margin-top: 35px;
+  padding-top: 14px;
+  text-align: center;
+  color: var(--white);
+  width: 17.625rem;
+  height: 61px;
+  background: transparent linear-gradient(90deg, var(--bright-blue) 0%, var(--soft-blue) 100%) 0% 0% no-repeat padding-box;
+  border-radius: 1.9375rem;
+  opacity: 1;
+}
+/* #header ここまで */
+
+/* main-content ここから */
+.main-conten {
+  width: 100%;
+}
+/* main-content ここまで */
+
+/* #footer ここから */
+#footer {
+  width: 100%;
+}
+/* #footer ここまで */
