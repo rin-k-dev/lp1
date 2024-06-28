@@ -46,7 +46,7 @@ ul {
 
 /* #header ここから */
 #header {
-  width: 100%;
+  width: 120rem;
   position: sticky;
   top: 0;
   display: flex;
