@@ -37,14 +37,8 @@ body {
   line-height: 1.75;
   background-color: var(--white);
   width: 100%;
-  min-width: initial;
   margin-left: 0;
   margin-right: 0;
-}
-@media(min-width: 768px) {
-  body {
-    min-width: 1920px;
-  }
 }
 @media(min-width: 768px) {
   #header {
