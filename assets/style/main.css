@@ -57,21 +57,22 @@ ul {
 @media(min-width: 768px) {
   #header {
     height: 101px;
-    padding-left: 19.79%;
-    padding-right: 21.93%;
   }
 }
 
 #header .header__title {
     padding-top: 18px;
     padding-bottom: 18px;
-    margin-right: 9.875rem;
+    padding-right: 9.875rem;
+    margin: 0;
 }
 @media(min-width: 768px) {
   #header .header__title {
     padding-top: 28px;
     padding-bottom: 28px;
     display: inline;
+    padding-left: 19.79%;
+    padding-right: 8.23%;
   }
 }
 
