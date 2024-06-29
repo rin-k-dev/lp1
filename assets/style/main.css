@@ -35,7 +35,11 @@ body {
   letter-spacing: 0;
   line-height: 1.75;
   background-color: var(--white);
-  min-width:1920px;
+}
+@media(min-width: 768px) {
+  body {
+    min-width: 1920px;
+  }
 }
 a {
   text-decoration:none;
