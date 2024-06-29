@@ -25,6 +25,7 @@
 /* ゆっくり遷移する */
 html {
 	scroll-behavior: smooth;
+  width: 100%;
 }
 body {
   font-family: "Noto Sans JP", sans-serif;
@@ -35,12 +36,9 @@ body {
   letter-spacing: 0;
   line-height: 1.75;
   background-color: var(--white);
+  width:100%;
 }
-@media(min-width: 768px) {
-  body {
-    min-width: 1920px;
-  }
-}
+
 a {
   text-decoration:none;
 }
@@ -75,7 +73,7 @@ ul {
   #header .header__title {
     padding-top: 28px;
     padding-bottom: 28px;
-    display: inline;
+    display: block;
     padding-left: 19.79%;
     padding-right: 8.23%;
   }
