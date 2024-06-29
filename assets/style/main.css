@@ -57,8 +57,8 @@ ul {
 @media(min-width: 768px) {
   #header {
     height: 101px;
-    padding-left: 23.75rem;
-    padding-right: 26.3125rem;
+    padding-left: 19.79%;
+    padding-right: 21.93%;
   }
 }
 
@@ -71,6 +71,7 @@ ul {
   #header .header__title {
     padding-top: 28px;
     padding-bottom: 28px;
+    display: inline;
   }
 }
 
@@ -87,7 +88,7 @@ ul {
     display: block;
     font-size: 2rem;
     line-height: 1.125;
-
+    white-space: nowrap;
   }
 }
 @media(max-width: 767px) {
@@ -177,6 +178,7 @@ ul {
     line-height: 1.8;
     color: var(--dark-gray);
     padding-top: 28px;
+    white-space: nowrap;
   }
   #header #menu ul li a:hover {
     color: var(--blue);
@@ -198,6 +200,7 @@ ul {
     text-align: center;
     transition: all .3s;
     margin-top: 16px;
+    white-space: nowrap;
   }
   #header #menu .menu__button:hover {
     opacity: 0.7;
