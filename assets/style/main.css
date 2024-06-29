@@ -25,6 +25,7 @@
 /* ゆっくり遷移する */
 html {
 	scroll-behavior: smooth;
+  width: 100%;
 }
 body {
   font-family: "Noto Sans JP", sans-serif;
@@ -35,7 +36,10 @@ body {
   letter-spacing: 0;
   line-height: 1.75;
   background-color: var(--white);
+  width: 100%;
   min-width: initial;
+  margin-left: 0;
+  margin-right: 0;
 }
 @media(min-width: 768px) {
   body {
