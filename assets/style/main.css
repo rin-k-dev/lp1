@@ -25,7 +25,6 @@
 /* ゆっくり遷移する */
 html {
 	scroll-behavior: smooth;
-  width: 100%;
 }
 body {
   font-family: "Noto Sans JP", sans-serif;
@@ -36,9 +35,13 @@ body {
   letter-spacing: 0;
   line-height: 1.75;
   background-color: var(--white);
-  width:100%;
+  min-width: initial;
 }
-
+@media(min-width: 768px) {
+  body {
+    min-width: 1920px;
+  }
+}
 @media(min-width: 768px) {
   #header {
     height: 101px;
@@ -64,22 +67,17 @@ ul {
 @media(min-width: 768px) {
   #header {
     height: 101px;
-    min-width: 1920px;
   }
 }
 
 #header .header__title {
     padding-left: 1rem;
-    padding-top: 18px;
-    padding-bottom: 18px;
     padding-right: 9.875rem;
     margin: 0;
 }
 @media(min-width: 768px) {
   #header .header__title {
     padding-top: 28px;
-    padding-bottom: 28px;
-    display: block;
     padding-left: 19.79%;
     padding-right: 8.23%;
   }
@@ -92,7 +90,6 @@ ul {
   font-size: 1.375rem;
   line-height: 1.5;
   color: var(--blue);
-  display: block;
 }
 @media(min-width: 768px) {
   #header .header__title a {
