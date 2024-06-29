@@ -39,7 +39,6 @@ body {
 @media(min-width: 768px) {
   body {
     min-width: 1920px;
-    -webkit-text-size-adjust: 100%;
   }
 }
 a {
