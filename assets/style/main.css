@@ -46,7 +46,6 @@ ul {
 
 /* #header ここから */
 #header {
-  width: 100%;
   padding-left: 1rem;
   position: sticky;
   top: 0;
@@ -77,6 +76,7 @@ ul {
 }
 
 #header .header__title a {
+  cursor: pointer;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1.375rem;
