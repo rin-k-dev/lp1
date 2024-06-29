@@ -1,6 +1,13 @@
-$(".openbtn").click(function () {//ボタンがクリックされたら
-  $("#menu").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
-});
-$(".menu__link").click(function() { // リンクがクリックされたら
-  $("#menu").removeClass('panelactive'); // ナビゲーションからpanelactiveクラスを削除
+$(document).ready(function() {
+  $(".openbtn").click(function() {
+    if ($("#menu").hasClass('panelactive')) {
+      $("#menu").removeClass('panelactive').addClass('panelinactive');
+    } else {
+      $("#menu").removeClass('panelinactive').addClass('panelactive');
+    }
+  });
+
+  $(".menu__link").click(function() {
+    $("#menu").removeClass('panelactive').addClass('panelinactive');
+  });
 });
