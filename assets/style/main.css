@@ -65,6 +65,7 @@ ul {
   top: 0;
   height: 70px;
   display: flex;
+  background-color: var(--white);
   box-shadow: 0px 2px 8px var(--black-opacity);
 }
 @media(min-width: 768px) {
