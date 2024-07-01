@@ -613,6 +613,13 @@ ul {
 }
 
 @media (min-width: 768px) {
+  #reason .reason__content {
+    flex-direction: row;
+    gap: calc(100vw * 40 / 1920);
+    align-items:flex-start;
+    margin-top: 32px;
+  }
+
   #reason .reason__content-title {
     padding-left: 0;
     padding-right: 0;
@@ -629,6 +636,8 @@ ul {
   #reason .reason__wrapper .reason__content h2 {
     font-size: 1.75rem;
     line-height: 1.29;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   #reason .reason__wrapper .reason__content h3 {
