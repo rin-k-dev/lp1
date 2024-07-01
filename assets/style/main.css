@@ -221,208 +221,169 @@ ul {
   position: relative;
   z-index: 1;
 }
-/* #main-visual ここから */
-.main-content #main-visual {
+
+#main-visual .main-visual__wrapper {
+ background-image: url('../image/mv_sp.png');
+ background-size: cover;
+ width: 100%; /* フルウィンドウ幅でスケーリング */
+ aspect-ratio: 375 / 250; /* アスペクト比を375:250に設定 */
+}
+
+@media(min-width: 768px) {
+  #main-visual .main-visual__wrapper {
+    background-image: url('../image/mv_pc.png');
+    background-size: cover;
+    aspect-ratio: 1920 / 651;
+   }
+}
+
+#main-visual .main-visual__wrapper .main-visual__title {
+  display: flex;
+  padding-left: calc(100vw * 16 / 375);
+  padding-top: calc(100vw * 35 / 375);
+}
+
+@media(min-width:768px) {
+  #main-visual .main-visual__wrapper .main-visual__title {
+    padding-left: calc(100vw * 410 / 1920);
+    padding-top: calc(100vw * 104 / 1920);
+  }
+}
+
+#main-visual .main-visual__wrapper .main-visual__title .main-visual__frame-left {
+  width: 24px;
+  background-image: url('../image/mv_frame_left_sp.png');
+  background-size: cover;
+  aspect-ratio: 24 / 69;
+}
+
+#main-visual .main-visual__wrapper .main-visual__title .main-visual__frame-right {
+  width: 24px;
+  background-image: url('../image/mv_frame_right_sp.png');
+  background-size: cover;
+  aspect-ratio: 24 / 69;
+}
+
+#main-visual .main-visual__wrapper .main-visual__title .main-visual__elite-university-wrapper {
+  display: inline-block;
+  width: 6.1875rem;
+  height: 67px;
   position: relative;
 }
 
-.main-content #main-visual img {
-  width: 100%;
-  display: none;
-
+#main-visual .main-visual__wrapper .main-visual__title .main-visual__elite-university .pass {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.6875rem;
+  text-align: left;
+  line-height: 1.45;
+  color: var(--dark-gray);
 }
-@media (max-width: 767px) {
-  #main-visual img.main-visual__image-sp{
-      display: block; /* モバイル用の画像を表示 */
-      height: 250px;
-      object-fit: cover;
-  }
 
-  #main-visual .main-visual__elite-university::before {
-    position: absolute;
-    top: 34px;
-    margin-left: 1rem;
-    display: block;
-    content: "";
-    background-image: url('../image/mv_frame_left_sp.png');
-    background-size: cover;
-    width: 24px;
-    height: 69px;
-  }
-  #main-visual .main-visual__elite-university::after {
-    position: absolute;
-    top: 34px;
-    margin-left: calc(8.0rem + 1rem);
-    display: block;
-    content: "";
-    background-image: url('../image/mv_frame_right_sp.png');
-    background-size: cover;
-    width: 24px;
-    height: 69px;
-  }
-  #main-visual .main-visual__elite-university .pass {
-    position: absolute;
-    top: 34px;
-    margin-top: 5px;
-    margin-left: calc(1.5rem + 1rem);
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0.6875rem;
-    text-align: left;
-    line-height: 1.45;
-    color: var(--dark-gray);
-    display: block;
-  }
-  #main-visual .main-visual__elite-university .number {
-    position: absolute;
-    top: 34px;
-    margin-top: 24px;
-    margin-left: calc(2.6rem + 1rem);
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-    color: var(--bright-pink);
-    font-size: 1.5625rem;
-    line-height: 2.2;
-    display: block;
-  }
-  #main-visual .main-visual__elite-university .one {
-    font-family: "Poppins", sans-serif;
-    position: absolute;
-    top: 34px;
-    margin-top: 20px;
-    margin-left: calc(5.3rem + 1rem);
-    font-weight: 800;
-    font-style: italic;
-    color: var(--bright-pink);
-    font-size: 2.25rem;
-    line-height: 1.53;
-    display: block;
-  }
-  #main-visual .main-visual__high-school-student {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0.875rem;
-    line-height: 2.57;
-    color: var(--dark-gray);
-  }
-  #main-visual .main-visual__entry {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.5625rem;
-    color: var(--blue);
-    text-align: left;
-    line-height: 1.44;
-  }
-  #main-visual .main-visual__guidance-wrapper {
-    position: absolute;
-    top: 0;
-    margin-top: 123px;
-    margin-left: 1rem;
-  }
+#main-visual .main-visual__wrapper .main-visual__title .numberone {
+  position: relative;
+  left: calc(100vw * 16 / 375);
+  top: calc(-100vw * 8 / 375);
 }
-@media (min-width: 768px) {
-  #main-visual img.main-visual__image-pc {
-      display: block; /* PC用の画像を表示 */
-      height: 651px;
-      object-fit: cover;
-  }
-  #main-visual .main-visual__elite-university::before {
-    position: absolute;
-    top: 104px;
-    margin-left: 25.625rem;
-    display: block;
-    content: "";
+
+#main-visual .main-visual__wrapper .main-visual__title .numberone .number {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color: var(--bright-pink);
+  font-size: 1.5625rem;
+  line-height: 2.2;
+}
+
+#main-visual .main-visual__wrapper .main-visual__title .numberone .one {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  color: var(--bright-pink);
+  font-size: 2.25rem;
+  line-height: 1.53;
+}
+
+#main-visual .main-visual__wrapper .main-visual__guidance-wrapper {
+  margin-left: calc(100vw * 16 / 375);
+  margin-top: calc(100vw * 21 / 375);
+}
+
+#main-visual .main-visual__wrapper .main-visual__guidance-wrapper .main-visual__high-school-student{
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 2.57;
+  color: var(--dark-gray);
+}
+
+#main-visual .main-visual__wrapper .main-visual__guidance-wrapper .main-visual__entry {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5625rem;
+  color: var(--blue);
+  text-align: left;
+  line-height: 1.44;
+}
+
+@media(min-width:768px) {
+  #main-visual .main-visual__wrapper .main-visual__title .main-visual__frame-left {
+    width: 52.6px;
     background-image: url('../image/mv_frame_left_pc.png');
     background-size: cover;
-    width: 53px;
-    height: 150px;
+    aspect-ratio: 52.6 / 150;
   }
-  #main-visual .main-visual__elite-university::after {
-    position: absolute;
-    top: 104px;
-    margin-left: calc(13.75rem + 25.625rem);
-    display: block;
-    content: "";
+
+  #main-visual .main-visual__wrapper .main-visual__title .main-visual__frame-right {
+    width: 52.6px;
     background-image: url('../image/mv_frame_right_pc.png');
     background-size: cover;
-    width: 53px;
-    height: 150px;
+    aspect-ratio: 52.6 / 150;
+    position: relative;
+    left: calc(100vw * 80 / 1920);
   }
-  #main-visual .main-visual__elite-university .pass {
-    position: absolute;
-    top: 104px;
-    margin-top: 12px;
-    margin-left: calc(2.75rem + 25.625rem);
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+  #main-visual .main-visual__wrapper .main-visual__title .main-visual__elite-university-wrapper {
+    left: calc(-100vw * 10 / 1920);
+  }
+
+  #main-visual .main-visual__wrapper .main-visual__title .main-visual__elite-university .pass {
     font-size: 1.25rem;
-    text-align: left;
     line-height: 1.45;
-    color: var(--dark-gray);
-    display: block;
+    display: inline-block;
+    width: 11.25rem;
   }
-  #main-visual .main-visual__elite-university .number {
-    position: absolute;
-    top: 104px;
-    margin-top: 38px;
-    margin-left: calc(4.8rem + 25.625rem);
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-    color: var(--bright-pink);
+
+  #main-visual .main-visual__wrapper .main-visual__title .numberone {
+    left: calc(100vw * 32 / 1920);
+    top: calc(100vw * 8 / 1920);
+  }
+
+  #main-visual .main-visual__wrapper .main-visual__title .numberone .number {
     font-size: 3.375rem;
-    line-height: 2.06;
-    display: block;
-  }
-  #main-visual .main-visual__elite-university .one {
-    font-family: "Poppins", sans-serif;
-    position: absolute;
-    top: 104px;
-    margin-top: 32px;
-    margin-left: calc(10.5rem + 25.625rem);
-    font-weight: 800;
-    font-style: italic;
-    color: var(--bright-pink);
-    font-size: 4.625rem;
     line-height: 1.5;
-    display: block;
   }
-  #main-visual .main-visual__high-school-student {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+  #main-visual .main-visual__wrapper .main-visual__title .numberone .one {
+    font-size: 74px;
+    line-height: 1.5;
+  }
+
+  #main-visual .main-visual__wrapper .main-visual__guidance-wrapper {
+    margin-left: calc(100vw * 410 / 1920);
+    margin-top: calc(100vw * 40 / 1920);
+  }
+
+  #main-visual .main-visual__wrapper .main-visual__guidance-wrapper .main-visual__high-school-student {
     font-size: 2.0625rem;
     line-height: 1.09;
-    color: var(--dark-gray);
   }
-  #main-visual .main-visual__entry {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+
+  #main-visual .main-visual__wrapper .main-visual__guidance-wrapper .main-visual__entry {
     font-size: 3.75rem;
-    color: var(--blue);
-    text-align: left;
     line-height: 1.42;
   }
-  #main-visual .main-visual__guidance-wrapper {
-    position: absolute;
-    top: 0;
-    margin-top: 286px;
-    margin-left: 25.625rem;
-  }
 }
-/* #main-visual ここまで */
-/* main-content ここまで */
-
-/* #footer ここから */
-#footer {
-  width: 100%;
-  height: 151px;
-  object-fit: cover;
-}
-/* #footer ここまで */
