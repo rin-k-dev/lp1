@@ -643,6 +643,7 @@ ul {
   #reason .reason__content-02 {
     flex-direction: row-reverse;
     gap: calc(100vw * 40 / 1920);
+    margin-top: 48px;
   }
 
   #reason .reason__content-title {
