@@ -258,6 +258,8 @@ ul {
   z-index: 1;
 }
 
+/* #main-visual ここから*/
+
 #main-visual .main-visual__wrapper {
  background-image: url('../image/mv_sp.png');
  background-size: cover;
@@ -519,3 +521,7 @@ ul {
     padding-top: 8px;
   }
 }
+/* #main-visual ここまで*/
+
+
+/* main-content ここまで */
