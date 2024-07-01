@@ -712,10 +712,7 @@ ul {
     width: calc(100vw * 560 / 1920);
   }
 }
-#reason .reason__content-title p:last-of-type {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
+
 /* #reason ここまで*/
 
 /* main-content ここまで */
