@@ -444,3 +444,78 @@ ul {
     line-height: 1.42;
   }
 }
+
+#main-visual .main-visual__buttons {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-visual .main-visual__buttons a {
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 2.25;
+  color: var(--white);
+  width: 15.625rem;
+  height: 48px;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 25px;
+  transition: all .3s;
+}
+
+#main-visual .main-visual__buttons a:hover {
+  opacity: 0.7;
+}
+
+#main-visual .main-visual__buttons a.main-visual__buttons-inquiry {
+  background-color: var(--green);
+}
+
+#main-visual .main-visual__buttons a.main-visual__buttons-freetrial {
+  background-color: var(--orange);
+}
+
+#main-visual .main-visual__buttons a.main-visual__buttons-request {
+  background-color: var(--teal);
+}
+
+@media (min-width: 768px) {
+  #main-visual .main-visual__buttons {
+    flex-direction: row;
+    margin-top: 0;
+    margin-top: -37.5px;
+    gap: 2.5rem;
+  }
+  #main-visual .main-visual__buttons a {
+    width: 21.25rem;
+    height: 75px;
+    border-radius: 38px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1700px) {
+  #main-visual .main-visual__buttons {
+    flex-direction: row;
+    margin-top: 16px;
+    gap: 2.0rem;
+  }
+  #main-visual .main-visual__buttons a {
+    width: 12.25rem;
+    height: 50px;
+    border-radius: 38px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-top: 8px;
+  }
+}
