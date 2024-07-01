@@ -523,5 +523,127 @@ ul {
 }
 /* #main-visual ここまで*/
 
+/* #reason ここから*/
+#reason h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.75rem;
+  line-height: 1.29;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 17px;
+  color: var(--dark-gray);
+}
+
+#reason h2 .reason__three {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: .9;
+  color: var(--bright-pink);
+}
+
+@media (min-width: 768px) {
+  #reason h2 {
+    font-size: 2.25rem;
+    line-height: 1;
+    margin-top: 72px;
+  }
+  #reason h2 .reason__three {
+    font-size: 3.375rem;
+    line-height: .67;
+  }
+}
+
+#reason .reason__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#reason .reason__content-title {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#reason .reason__photo_01 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/reason_photo_01_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+}
+
+#reason .reason__wrapper .reason__content h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--bright-pink);
+}
+
+#reason .reason__wrapper .reason__content .reason__title-number {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--bright-pink);
+}
+
+#reason .reason__wrapper .reason__content h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  padding-bottom: 12px;
+}
+
+#reason .reason__wrapper .reason__content p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  #reason .reason__content-title {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #reason .reason__photo_01 {
+    width: calc(100vw * 560 / 1920);
+    aspect-ratio: 560 / 346;
+    background-image: url('../image/reason_photo_01_pc.png');
+    background-size: cover;
+    border-radius: 12px;
+  }
+
+  #reason .reason__wrapper .reason__content h2 {
+    font-size: 1.75rem;
+    line-height: 1.29;
+  }
+
+  #reason .reason__wrapper .reason__content h3 {
+    padding-bottom: 20px;
+    font-size: 2.625rem;
+    line-height: .86;
+  }
+
+  #reason .reason__wrapper .reason__content p {
+    line-height: 1.75;
+    display: inline-block;
+    width: calc(100vw * 560 / 1920);
+    height: calc(100vw * 108 / 1920);
+  }
+}
+/* #reason ここまで*/
 
 /* main-content ここまで */
