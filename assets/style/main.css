@@ -746,6 +746,7 @@ ul {
 
 .st-theme-elite>.nav {
   border: none;
+  gap: 0.9375rem;
 }
 
 .st-theme-elite>.nav .nav-link.active {
