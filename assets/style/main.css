@@ -648,19 +648,21 @@ ul {
 /* .entry ここから */
 .entry {
   background-color: rgba(255, 85, 85, 0.1); /* 10%の不透明度 */
-  padding: 40px 2.1875rem;
   margin-bottom: 64px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .entry p {
-  text-align: center;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: var(--dark-gray);
   font-size: 1rem;
   line-height: 1.75;
-  width: calc(100vw * 305 / 375);
+  width: 19.0625rem;
+  margin: 0 auto;
 }
 .entry a {
   cursor: pointer;
@@ -670,8 +672,8 @@ ul {
   font-style: normal;
   font-size: 1.25rem;
   line-height: 1.8;
-  width: calc(100vw * 305 / 375);
-  height: calc(100vw * 69 / 375);;
+  width: 19.0625rem;
+  height: 69px;
   background: transparent linear-gradient(90deg, var(--bright-blue) 0%, var(--soft-blue) 100%) 0% 0% no-repeat padding-box;
   border-radius: 35px;
   color: var(--white);
@@ -679,6 +681,7 @@ ul {
   transition: all .3s;
   margin-top: 12px;
   padding-top: 16px;
+  margin-left: auto;
 }
 
 @media(min-width:768px) {
@@ -699,7 +702,6 @@ ul {
     font-size: 1.5rem;
     line-height: 1.5;
     margin-top: 20px;
-    margin-left: calc(100vw * 780 / 1920);
     border-radius: 38px;
   }
 }
