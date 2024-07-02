@@ -880,6 +880,46 @@ ul {
   border-radius: 12px;
   margin-top: 28px;
 }
+#course .course__content-04 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/course_photo_04_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+  margin-top: 28px;
+}
+#course .course__content-05 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/course_photo_05_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+  margin-top: 28px;
+}
+#course .course__content-06 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/course_photo_06_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+  margin-top: 28px;
+}
+#course .course__content-07 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/course_photo_07_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+  margin-top: 28px;
+}
+#course .course__content-08 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/course_photo_08_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+  margin-top: 28px;
+}
 #course .course__content-title {
   display: flex;
   align-items: center;
@@ -898,7 +938,7 @@ ul {
 
 @media(min-width:768px) {
   #course .course__content-01 {
-    width: calc(100vw * 532 / 1920);
+    width: 532px;
     aspect-ratio: 532 / 371;
     background-image: url('../image/course_photo_01_pc.png');
     background-size: cover;
@@ -906,7 +946,7 @@ ul {
     margin-top: 32px;
   }
   #course .course__content-02 {
-    width: calc(100vw * 532 / 1920);
+    width: 532px;
     aspect-ratio: 532 / 371;
     background-image: url('../image/course_photo_02_pc.png');
     background-size: cover;
@@ -914,17 +954,49 @@ ul {
     margin-top: 32px;
   }
   #course .course__content-03 {
-    width: calc(100vw * 532 / 1920);
-    aspect-ratio: 556 / 371;
+    width: 532px;
+    aspect-ratio: 532 / 371;
     background-image: url('../image/course_photo_03_pc.png');
     background-size: cover;
     border-radius: 12px;
     margin-top: 32px;
   }
   #course .course__content-04 {
-    width: calc(100vw * 532 / 1920);
-    aspect-ratio: 556 / 371;
+    width: 532px;
+    aspect-ratio: 532 / 371;
     background-image: url('../image/course_photo_04_pc.png');
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 32px;
+  }
+  #course .course__content-05 {
+    width: 532px;
+    aspect-ratio: 532 / 371;
+    background-image: url('../image/course_photo_05_pc.png');
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 32px;
+  }
+  #course .course__content-06 {
+    width: 532px;
+    aspect-ratio: 532 / 371;
+    background-image: url('../image/course_photo_06_pc.png');
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 32px;
+  }
+  #course .course__content-07 {
+    width: 532px;
+    aspect-ratio: 532 / 371;
+    background-image: url('../image/course_photo_07_pc.png');
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 32px;
+  }
+  #course .course__content-08 {
+    width: 532px;
+    aspect-ratio: 532 / 371;
+    background-image: url('../image/course_photo_08_pc.png');
     background-size: cover;
     border-radius: 12px;
     margin-top: 32px;
@@ -943,6 +1015,7 @@ ul {
   #course .course__content-group-01, #course .course__content-group-02 {
     display: flex;
     gap: 31px;
+    align-items: center;
   }
 }
 /* #course ここまで */
