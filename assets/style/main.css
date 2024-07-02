@@ -841,7 +841,6 @@ ul {
 .st>.tab-content>.tab-pane {
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 28px;
 }
 
 #course .course__content-link {
@@ -854,6 +853,15 @@ ul {
   background-image: url('../image/course_photo_01_sp.png');
   background-size: cover;
   border-radius: 12px;
+  margin-top: 28px;
+}
+#course .course__content-02 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/course_photo_02_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+  margin-top: 28px;
 }
 
 #course .course__content-title {
@@ -864,7 +872,12 @@ ul {
 }
 #course .course__content-title h4 {
   display: inline-block;
-
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--dark-gray);
+  font-size: 1.25rem;
+  line-height: 1.8;
 }
 /* #course ここまで */
 
