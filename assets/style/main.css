@@ -837,6 +837,35 @@ ul {
     height: 75px;
   }
 }
+
+.st>.tab-content>.tab-pane {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 28px;
+}
+
+#course .course__content-link {
+  cursor: pointer;
+}
+
+#course .course__content-01 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/course_photo_01_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+}
+
+#course .course__content-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 12px;
+}
+#course .course__content-title h4 {
+  display: inline-block;
+
+}
 /* #course ここまで */
 
 /* main-content ここまで */
