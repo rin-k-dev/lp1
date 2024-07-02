@@ -42,6 +42,13 @@ body {
   margin-right: 0;
 }
 
+@media (min-width: 768px) and (max-width: 1920px) {
+  html, body {
+    min-width: 1920px;
+    width: 1920px;
+  }
+}
+
 a {
   text-decoration:none;
 }
@@ -694,11 +701,10 @@ ul {
   .entry p {
     width: calc(100vw * 400 / 1920);
     line-height: 2.63;
-    margin-left: calc(100vw * 760 / 1920);
   }
   .entry a {
-    width: calc(100vw * 360 / 1920);
-    height: calc(100vw * 75 / 1920);
+    width: calc(100% * 360 / 1920);
+    height: 75px;
     font-size: 1.5rem;
     line-height: 1.5;
     margin-top: 20px;
