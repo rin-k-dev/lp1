@@ -841,6 +841,7 @@ ul {
 .st>.tab-content>.tab-pane {
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-bottom: 56px;
 }
 
 #course .course__content-link {
@@ -863,7 +864,22 @@ ul {
   border-radius: 12px;
   margin-top: 28px;
 }
-
+#course .course__content-03 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/course_photo_03_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+  margin-top: 28px;
+}
+#course .course__content-04 {
+  width: calc(100vw * 343 / 375);
+  aspect-ratio: 343 / 220;
+  background-image: url('../image/course_photo_04_sp.png');
+  background-size: cover;
+  border-radius: 12px;
+  margin-top: 28px;
+}
 #course .course__content-title {
   display: flex;
   align-items: center;
@@ -878,6 +894,51 @@ ul {
   color: var(--dark-gray);
   font-size: 1.25rem;
   line-height: 1.8;
+}
+
+@media(min-width:768px) {
+  #course .course__content-01 {
+    width: calc(100vw * 556 / 1920);
+    aspect-ratio: 556 / 371;
+    background-image: url('../image/course_photo_01_pc.png');
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 32px;
+  }
+  #course .course__content-02 {
+    width: calc(100vw * 556 / 1920);
+    aspect-ratio: 556 / 371;
+    background-image: url('../image/course_photo_02_pc.png');
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 32px;
+  }
+  #course .course__content-03 {
+    width: calc(100vw * 556 / 1920);
+    aspect-ratio: 556 / 371;
+    background-image: url('../image/course_photo_03_pc.png');
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 32px;
+  }
+  #course .course__content-04 {
+    width: calc(100vw * 556 / 1920);
+    aspect-ratio: 556 / 371;
+    background-image: url('../image/course_photo_04_pc.png');
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 32px;
+  }
+
+  .st>.tab-content>.tab-pane {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-bottom: 32px;
+  }
+
+  #course .course__content-title {
+    padding-top: 16px;
+  }
 }
 /* #course ここまで */
 
