@@ -758,6 +758,10 @@ ul {
 .st>.tab-content {
   background-color: var(--very-light-blue);
 }
+
+#nav-row {
+  flex-direction: row !important;
+}
 /* #course ここまで */
 
 /* main-content ここまで */
