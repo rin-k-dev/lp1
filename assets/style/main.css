@@ -49,6 +49,7 @@ body {
 @media (min-width: 768px) and (max-width: 1920px) {
   html, body {
     min-width: 1920px;
+    width: 1920px;
   }
 }
 
@@ -715,5 +716,28 @@ ul {
   }
 }
 /* .entry ここまで */
+
+/* #course ここから */
+#course {
+  text-align: center;
+}
+#course h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--dark-gray);
+  font-size: 1.75rem;
+  line-height: 1.29;
+  margin-bottom: 21px;
+}
+
+@media(min-width:768px) {
+  #course h2 {
+    font-size: 2.25rem;
+    line-height: 1;
+    margin-bottom: 32px;
+  }
+}
+/* #course ここまで */
 
 /* main-content ここまで */
