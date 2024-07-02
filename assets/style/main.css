@@ -23,6 +23,10 @@
   --green: #77CB33;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   width: 100%;
@@ -45,7 +49,6 @@ body {
 @media (min-width: 768px) and (max-width: 1920px) {
   html, body {
     min-width: 1920px;
-    width: 100%;
   }
 }
 
