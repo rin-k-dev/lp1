@@ -12,7 +12,7 @@
   --bright-pink: #F11F8D;
   --blue: #005BAC;
   --black-opacity: #00000029;
-  --light-pink: #FFEDED;
+  --light-pink: #FF5555;
   --bright-blue: #0271E0;
   --soft-blue: #53A2F0;
   --very-light-blue: #F2F9FF;
@@ -714,5 +714,64 @@ ul {
 }
 
 /* #reason ここまで*/
+
+/* .entry ここから */
+.entry {
+  background-color: rgba(255, 85, 85, 0.1); /* 10%の不透明度 */
+  padding: 40px 2.1875rem;
+  margin-bottom: 64px;
+}
+
+.entry p {
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--dark-gray);
+  font-size: 1rem;
+  line-height: 1.75;
+  width: calc(100vw * 305 / 375);
+}
+.entry a {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  width: calc(100vw * 305 / 375);
+  height: calc(100vw * 69 / 375);;
+  background: transparent linear-gradient(90deg, var(--bright-blue) 0%, var(--soft-blue) 100%) 0% 0% no-repeat padding-box;
+  border-radius: 35px;
+  color: var(--white);
+  text-align: center;
+  transition: all .3s;
+  margin-top: 12px;
+  padding-top: 16px;
+}
+
+@media(min-width:768px) {
+  .entry {
+    padding-top: 56px;
+    padding-bottom: 77px;
+    margin-top: 72px;
+    margin-bottom: 72px;
+  }
+  .entry p {
+    width: calc(100vw * 400 / 1920);
+    line-height: 2.63;
+    margin-left: calc(100vw * 760 / 1920);
+  }
+  .entry a {
+    width: calc(100vw * 360 / 1920);
+    height: calc(100vw * 75 / 1920);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-left: calc(100vw * 780 / 1920);
+  }
+}
+/* .entry ここまで */
 
 /* main-content ここまで */
