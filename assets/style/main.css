@@ -21,6 +21,7 @@
   --teal: #3AC8AD;
   --orange: #F6AA00;
   --green: #77CB33;
+  --st-anchor-active-primary-color:  #009EF7;
 }
 
 *, *::before, *::after {
@@ -737,6 +738,25 @@ ul {
     line-height: 1;
     margin-bottom: 32px;
   }
+}
+
+.st-theme-elite {
+  border: none;
+}
+
+.st-theme-elite>.nav {
+  border: none;
+}
+
+.st-theme-elite>.nav .nav-link.active {
+  background-color: var(--very-light-blue);
+}
+.st-theme-elite>.nav .nav-link {
+  background-color: var(--light-gray-alt);
+  border: none;
+}
+.st>.tab-content {
+  background-color: var(--very-light-blue);
 }
 /* #course ここまで */
 
