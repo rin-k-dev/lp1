@@ -1109,4 +1109,49 @@ ul {
 }
 /* #fees ここまで */
 
+.entry-last-margin {
+  margin-bottom: 0;
+}
+
+/* #info ここから*/
+#info {
+  width: 100%;
+}
+
+#info .info__wrapper a {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  padding-top: 67px;
+  padding-left: 1rem;
+}
+
+#info .info__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#info .info__wrapper .info__link-01 {
+  width: 100%;
+  background-image: url('../image/info_photo_01_sp.png');
+  aspect-ratio: 375 / 170;
+  background-size: cover;
+}
+
+#info .info__wrapper .info__link-02 {
+  width: 100%;
+  background-image: url('../image/info_photo_02_sp.png');
+  aspect-ratio: 375 / 170;
+  background-size: cover;
+}
+
+#info .info__wrapper .info__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--white);
+}
+/* #info ここまで*/
+
+
 /* main-content ここまで */
