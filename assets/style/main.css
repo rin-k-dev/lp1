@@ -821,16 +821,16 @@ ul {
 
 @media(min-width:768px) {
   #course .nav-width {
-    width: 72.5rem;
+    width: calc(100vw * 1160 / 1920);
     margin: 0 auto;
   }
   #course .tab-content-width {
-    width: 72.5rem;
+    width: calc(100vw * 1160 / 1920);;
     margin: 0 auto;
   }
 
   .st-theme-elite>.nav {
-    gap: 2.1875rem;
+    gap: calc(100vw * 31 / 1920);
   }
 
   .st-theme-elite>.nav .nav-link.active .course__title {
@@ -845,12 +845,12 @@ ul {
 
   .st-theme-elite>.nav .nav-link {
     padding-top: 20px;
-    width: 35rem;
+    width: calc(100vw * 560 / 1920);
     height: 75px;
   }
   .st-theme-elite>.nav .nav-link.active {
     padding-top: 20px;
-    width: 35rem;
+    width: calc(100vw * 560 / 1920);
     height: 75px;
   }
 }
@@ -864,7 +864,7 @@ ul {
 
 @media(min-width:768px) {
   .st>.tab-content>.tab-pane {
-    padding: 32px 2rem;
+    padding: 32px calc(100vw * 32 / 1920);
   }
 }
 
@@ -999,18 +999,18 @@ ul {
 
 @media(min-width:768px) {
   #course .course__parental-wrapper {
-    gap: 40px;
+    gap: calc(100vw * 40 / 1920);
   }
 
   #course .course__wrapper {
     flex-direction: row;
-    gap: 31px;
+    gap: calc(100vw * 31 / 1920);
   }
 
   #course .course__photo-01,#course .course__photo-02,#course .course__photo-03,#course .course__photo-04,#course .course__photo-05,#course .course__photo-06,#course .course__photo-07,#course .course__photo-08 {
     max-width: 532px;
-    width: 532px;
-    height: 329px;
+    width: calc(100vw * 532 / 1920);
+    height: calc(100vw * 329 / 1920);
     border-radius: 12px;
     margin-bottom: 16px;
   }
