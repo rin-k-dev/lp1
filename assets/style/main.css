@@ -1151,6 +1151,36 @@ ul {
   font-style: normal;
   color: var(--white);
 }
+
+@media(min-width:768px) {
+  #info .info__wrapper {
+    flex-direction: row;
+  }
+  #info .info__wrapper a {
+    width: 50%;
+    height: 320px;
+    padding-top: 137px;
+    padding-left: 0;
+    text-align: center;
+  }
+  #info .info__wrapper .info__link-01 {
+    width: 100%;
+    background-image: url('../image/info_photo_01_pc.png');
+    aspect-ratio: 375 / 170;
+    background-size: cover;
+  }
+
+  #info .info__wrapper .info__link-02 {
+    width: 100%;
+    background-image: url('../image/info_photo_02_pc.png');
+    aspect-ratio: 960 / 320;
+    background-size: cover;
+  }
+  #info .info__wrapper .info__title {
+    font-size: 2rem;
+    line-height: 1.125;
+  }
+}
 /* #info ここまで*/
 
 
