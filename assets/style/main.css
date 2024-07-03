@@ -1154,7 +1154,9 @@ ul {
 
 @media(min-width:768px) {
   #info .info__wrapper {
+    position: relative;
     flex-direction: row;
+    overflow: hidden;
   }
   #info .info__wrapper a {
     width: 50%;
@@ -1162,12 +1164,19 @@ ul {
     padding-top: 137px;
     padding-left: 0;
     text-align: center;
+    transition: all .3s ease-out;
+    overflow: hidden;
+  }
+  #info .info__wrapper a:hover {
+    transform: scale(1.2);
+    opacity: .7;
   }
   #info .info__wrapper .info__link-01 {
     width: 100%;
     background-image: url('../image/info_photo_01_pc.png');
-    aspect-ratio: 375 / 170;
+    aspect-ratio: 960 / 320;
     background-size: cover;
+    overflow: hidden;
   }
 
   #info .info__wrapper .info__link-02 {
