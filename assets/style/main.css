@@ -1155,6 +1155,7 @@ ul {
 #info .info__wrapper {
   display: flex;
   flex-direction: column;
+  gap: 0;
 }
 
 #info .info__photo-01,#info .info__photo-02 {
