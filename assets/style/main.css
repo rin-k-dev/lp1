@@ -939,6 +939,12 @@ ul {
 }
 
 @media(min-width:768px) {
+  #course .course__parental-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
   #course .course__wrapper {
     flex-direction: row;
     gap: 31px;
