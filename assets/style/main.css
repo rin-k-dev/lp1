@@ -12,7 +12,7 @@
   --bright-pink: #F11F8D;
   --blue: #005BAC;
   --black-opacity: #00000029;
-  --light-pink: #FFEDED;
+  --light-pink: #FF5555;
   --bright-blue: #0271E0;
   --soft-blue: #53A2F0;
   --very-light-blue: #F2F9FF;
@@ -21,10 +21,16 @@
   --teal: #3AC8AD;
   --orange: #F6AA00;
   --green: #77CB33;
+  --st-anchor-active-primary-color:  #009EF7;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 120px;
   width: 100%;
 }
 
@@ -40,6 +46,21 @@ body {
   width: 100%;
   margin-left: 0;
   margin-right: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1920px) {
+  html, body {
+    width: 100%;
+    min-width: 1920px;
+  }
+}
+
+@media(min-width:1920px) {
+  html, body {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
 }
 
 a {
@@ -103,15 +124,6 @@ ul {
     line-height: 1.125;
   }
 }
-
-
-@media (min-width: 768px) and (max-width: 1700px) {
-  #header .header__title a {
-    font-size: 1.2rem;
-    white-space: nowrap;
-  }
-}
-
 @media(max-width: 767px) {
   #header #menu {
     display: block;
@@ -173,6 +185,7 @@ ul {
     width: 70px;
     height:70px;
     right: 0;
+    top: 0;
     padding-top: 22px;
     padding-left: 20px;
   }
@@ -257,6 +270,8 @@ ul {
   position: relative;
   z-index: 1;
 }
+
+/* #main-visual ここから*/
 
 #main-visual .main-visual__wrapper {
  background-image: url('../image/mv_sp.png');
@@ -420,27 +435,6 @@ ul {
 
   #main-visual .main-visual__wrapper .main-visual__guidance-wrapper .main-visual__entry {
     font-size: 3.75rem;
-    line-height: 1.42;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1700px) {
-  #main-visual .main-visual__wrapper .main-visual__title {
-    padding-left: calc(100vw * 16 / 768);
-  }
-  #main-visual .main-visual__wrapper .main-visual__title .main-visual__frame-right {
-    left: calc(100vw * 70 / 768);
-  }
-  #main-visual .main-visual__wrapper .main-visual__guidance-wrapper {
-    margin-left: calc(100vw * 16 / 768);
-  }
-  #main-visual .main-visual__wrapper .main-visual__guidance-wrapper .main-visual__high-school-student {
-    font-size: 1.0625rem;
-    line-height: 1.09;
-  }
-
-  #main-visual .main-visual__wrapper .main-visual__guidance-wrapper .main-visual__entry {
-    font-size: 2.75rem;
     line-height: 1.42;
   }
 }

@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/jquery-smarttab@4/dist/css/smart_tab_all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/style/main.css">
 </head>
 <body>
@@ -74,27 +75,258 @@
             <h2 class="main-visual__entry">入学説明会の<br>お申し込み開始</h2>
           </div>
         </div>
+        <div class="main-visual__buttons">
+          <a href="/inquiry" class="main-visual__buttons-inquiry">入学のお問い合わせ</a>
+          <a href="/freetrial" class="main-visual__buttons-freetrial">無料体験に申し込む</a>
+          <a href="/request" class="main-visual__buttons-request">資料請求する</a>
+        </div>
       </section>
       <!-- #main-visual ここまで-->
       <!-- #reason ここから-->
       <section id="reason">
-        <h2>選ばれる3つの理由</h2>
+        <h2>選ばれる<span class="reason__three">3</span>つの理由</h2>
+        <div class="reason__wrapper">
+          <div class="reason__content">
+            <div class="reason__photo_01"></div>
+            <div class="reason__content-title">
+              <h3>Point <span class="reason__title-number">1</span></h3>
+              <h4>実績のある講師陣だから安心</h4>
+              <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            </div>
+          </div>
+          <div class="reason__content-02">
+            <div class="reason__photo_02"></div>
+            <div class="reason__content-title">
+              <h3>Point <span class="reason__title-number">2</span></h3>
+              <h4>オンラインにも対応だから、早送り巻き戻し視聴できる。</h4>
+              <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            </div>
+          </div>
+          <div class="reason__content">
+            <div class="reason__photo_03"></div>
+            <div class="reason__content-title">
+              <h3>Point <span class="reason__title-number">3</span></h3>
+              <h4>徹底した個別指導で、弱点を残さずそれぞれに合わせた大学受験対策。</h4>
+              <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- #reason ここまで-->
+      <!-- .entry ここから-->
+      <div class="entry">
+        <p>入学ご検討の方は、まずは入学説明会にお越しください</p>
+        <a href="/entry">入学説明会に申し込む</a>
+      </div>
+      <!-- .entry ここまで-->
       <!-- #course ここから-->
       <section id="course">
           <h2>コース・目的</h2>
+          <div id="smarttab">
+            <ul class="nav nav-width" id="nav-row">
+                <li>
+                  <a class="nav-link" href="#tab-1">
+                    <h3 class="course__title">学年別から選ぶ</h3>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#tab-2">
+                    <h3 class="course__title">目的別から選ぶ</h3>
+                  </a>
+                </li>
+            </ul>
+            <div class="tab-content tab-content-width">
+                <div id="tab-1" class="tab-pane" role="tabpanel">
+                  <div class="course__parental-wrapper">
+                    <div class="course__wrapper">
+                      <div class="course__content">
+                        <div class="course__photo-01">
+                          <a href="/"></a>
+                        </div>
+                        <a href="/">
+                          <h4 class="course__pane-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.802" height="11.836" viewBox="0 0 13.802 11.836">
+                              <path d="M13.513,70.539a.987.987,0,0,0,0-1.4l-4.93-4.93a.987.987,0,0,0-1.4,1.4l3.25,3.247H.986a.986.986,0,1,0,0,1.972h9.449L7.191,74.076a.987.987,0,0,0,1.4,1.4l4.93-4.93Z" transform="translate(0 -63.925)" fill="#005bac"/>
+                            </svg>
+                            高卒生
+                          </h4>
+                        </a>
+                      </div>
+                      <div class="course__content">
+                        <div class="course__photo-02">
+                          <a href="/"></a>
+                        </div>
+                        <a href="/">
+                          <h4 class="course__pane-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.802" height="11.836" viewBox="0 0 13.802 11.836">
+                              <path d="M13.513,70.539a.987.987,0,0,0,0-1.4l-4.93-4.93a.987.987,0,0,0-1.4,1.4l3.25,3.247H.986a.986.986,0,1,0,0,1.972h9.449L7.191,74.076a.987.987,0,0,0,1.4,1.4l4.93-4.93Z" transform="translate(0 -63.925)" fill="#005bac"/>
+                            </svg>
+                            高校3年生
+                          </h4>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="course__wrapper">
+                      <div class="course__content">
+                        <div class="course__photo-03">
+                          <a href="/"></a>
+                        </div>
+                        <a href="/">
+                          <h4 class="course__pane-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.802" height="11.836" viewBox="0 0 13.802 11.836">
+                              <path d="M13.513,70.539a.987.987,0,0,0,0-1.4l-4.93-4.93a.987.987,0,0,0-1.4,1.4l3.25,3.247H.986a.986.986,0,1,0,0,1.972h9.449L7.191,74.076a.987.987,0,0,0,1.4,1.4l4.93-4.93Z" transform="translate(0 -63.925)" fill="#005bac"/>
+                            </svg>
+                            高校2年生
+                          </h4>
+                        </a>
+                      </div>
+                      <div class="course__content">
+                        <div class="course__photo-04">
+                          <a href="/"></a>
+                        </div>
+                        <a href="/">
+                          <h4 class="course__pane-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.802" height="11.836" viewBox="0 0 13.802 11.836">
+                              <path d="M13.513,70.539a.987.987,0,0,0,0-1.4l-4.93-4.93a.987.987,0,0,0-1.4,1.4l3.25,3.247H.986a.986.986,0,1,0,0,1.972h9.449L7.191,74.076a.987.987,0,0,0,1.4,1.4l4.93-4.93Z" transform="translate(0 -63.925)" fill="#005bac"/>
+                            </svg>
+                            高校1年生
+                          </h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="tab-2" class="tab-pane" role="tabpanel">
+                  <div class="course__parental-wrapper">
+                    <div class="course__wrapper">
+                      <div class="course__content">
+                        <div class="course__photo-05">
+                          <a href="/"></a>
+                        </div>
+                        <a href="/">
+                          <h4 class="course__pane-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.802" height="11.836" viewBox="0 0 13.802 11.836">
+                              <path d="M13.513,70.539a.987.987,0,0,0,0-1.4l-4.93-4.93a.987.987,0,0,0-1.4,1.4l3.25,3.247H.986a.986.986,0,1,0,0,1.972h9.449L7.191,74.076a.987.987,0,0,0,1.4,1.4l4.93-4.93Z" transform="translate(0 -63.925)" fill="#005bac"/>
+                            </svg>
+                            難関大学・医学部合格を目指す
+                          </h4>
+                        </a>
+                      </div>
+                      <div class="course__content">
+                        <div class="course__photo-06">
+                          <a href="/"></a>
+                        </div>
+                        <a href="/">
+                          <h4 class="course__pane-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.802" height="11.836" viewBox="0 0 13.802 11.836">
+                              <path d="M13.513,70.539a.987.987,0,0,0,0-1.4l-4.93-4.93a.987.987,0,0,0-1.4,1.4l3.25,3.247H.986a.986.986,0,1,0,0,1.972h9.449L7.191,74.076a.987.987,0,0,0,1.4,1.4l4.93-4.93Z" transform="translate(0 -63.925)" fill="#005bac"/>
+                            </svg>
+                            名門私立大学合格を目指す
+                          </h4>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="course__wrapper">
+                      <div class="course__content">
+                        <div class="course__photo-07">
+                          <a href="/"></a>
+                        </div>
+                        <a href="/">
+                          <h4 class="course__pane-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.802" height="11.836" viewBox="0 0 13.802 11.836">
+                              <path d="M13.513,70.539a.987.987,0,0,0,0-1.4l-4.93-4.93a.987.987,0,0,0-1.4,1.4l3.25,3.247H.986a.986.986,0,1,0,0,1.972h9.449L7.191,74.076a.987.987,0,0,0,1.4,1.4l4.93-4.93Z" transform="translate(0 -63.925)" fill="#005bac"/>
+                            </svg>
+                            国公立大学合格を目指す
+                          </h4>
+                        </a>
+                      </div>
+                      <div class="course__content">
+                        <div class="course__photo-08">
+                          <a href="/"></a>
+                        </div>
+                        <a href="/">
+                          <h4 class="course__pane-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13.802" height="11.836" viewBox="0 0 13.802 11.836">
+                              <path d="M13.513,70.539a.987.987,0,0,0,0-1.4l-4.93-4.93a.987.987,0,0,0-1.4,1.4l3.25,3.247H.986a.986.986,0,1,0,0,1.972h9.449L7.191,74.076a.987.987,0,0,0,1.4,1.4l4.93-4.93Z" transform="translate(0 -63.925)" fill="#005bac"/>
+                            </svg>
+                            海外の大学合格を目指す
+                          </h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+        </div>
       </section>
       <!-- #course ここまで-->
+      <div class="entry">
+        <p>入学ご検討の方は、まずは入学説明会にお越しください</p>
+        <a href="/entry">入学説明会に申し込む</a>
+      </div>
+      <!-- .entry ここまで-->
       <!-- #fees ここから-->
       <section id="fees">
         <h2>費用</h2>
+        <table class="fees__table">
+          <thead>
+              <tr>
+                  <th class="fees__table-title">年間講数</th>
+                  <th class="fees__table-title">年間授業料（税込み）</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>5講</td>
+                  <td class="fees__highlight">24,500<span class="fees__yen">円</span></td>
+              </tr>
+              <tr>
+                  <td>10講</td>
+                  <td class="fees__highlight">49,000<span class="fees__yen">円</span></td>
+              </tr>
+              <tr>
+                  <td>11講</td>
+                  <td class="fees__highlight">53,900<span class="fees__yen">円</span></td>
+              </tr>
+              <tr>
+                  <td>12講</td>
+                  <td class="fees__highlight">58,800<span class="fees__yen">円</span></td>
+              </tr>
+              <tr>
+                  <td>22講</td>
+                  <td class="fees__highlight">107,800<span class="fees__yen">円</span></td>
+              </tr>
+              <tr>
+                  <td>24講</td>
+                  <td class="fees__highlight">117,600<span class="fees__yen">円</span></td>
+              </tr>
+          </tbody>
+      </table>
       </section>
       <!-- #fees ここまで-->
+      <!-- #course ここまで-->
+      <div class="entry entry-last-margin">
+        <p>入学ご検討の方は、まずは入学説明会にお越しください</p>
+        <a href="/entry">入学説明会に申し込む</a>
+      </div>
+      <!-- .entry ここまで-->
       <!-- #info ここから-->
       <section id="info">
-        <h3 class="info__faq">よくあるご質問</h3>
-        <h3 class="info__classroom">お近くの教室を探す</h3>
+        <div class="info__wrapper">
+          <div class="info__content">
+            <div class="info__photo-01">
+              <a href="/faq"></a>
+            </div>
+            <h3 class="info__title">よくあるご質問</h3>
+          </div>
+          <div class="info__content">
+            <div class="info__photo-02">
+              <a href="/search"></a>
+            </div>
+            <h3 class="info__title">お近くの教室を探す</h3>
+          </div>
+        </div>
       </section>
       <!-- #info ここまで-->
     </main>
@@ -106,6 +338,7 @@
     </footer>
     <!-- #footer ここまで-->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/jquery-smarttab@4/dist/js/jquery.smartTab.min.js"></script>
     <script src="assets/script/main.js"></script>
 </body>
 </html>
