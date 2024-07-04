@@ -259,33 +259,33 @@ ul {
     left: 1.25rem;
   }
   #main-visual .main-visual__laurel-left {
-    width: 2rem;
+    width: 1.5044rem;
   }
   #main-visual .main-visual__laurel-right {
-    width: 2rem;
-    left: 11.25rem;
+    width: 1.5044rem;
+    left: 6.8875rem;
   }
   #main-visual .university-achievement {
-    font-size: 1rem;
+    font-size: .6875rem;
   }
   #main-visual .main-visual__achievement-text {
-    left: 2rem;
+    left: 1rem;
   }
   #main-visual .ranking {
-    font-size: 2rem;
+    font-size: 1.5625rem;
   }
   #main-visual .ranking-number {
-    font-size: 3rem;
+    font-size: 2.25rem;
   }
   #main-visual .main-visual__guide-text {
     left: 1.25rem;
     top: 8rem;
   }
   #main-visual .main-visual__guide-text h3 {
-    font-size: 1.125rem;
+    font-size: 0.875remm;
   }
   #main-visual .main-visual__guide-text h4 {
-    font-size: 1.5rem;
+    font-size: 1.5625rem;
   }
 }
 
