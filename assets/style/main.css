@@ -850,7 +850,7 @@ ul {
 }
 
 #reason .reason__wrapper img.sp_only {
-  width: 21.4375rem;
+  width: 100%;
   aspect-ratio: 343 / 220;
   background-size: cover;
   background-position: center;
@@ -942,7 +942,7 @@ ul {
     margin-top: 2rem;
   }
   #reason .reason__wrapper img.pc_only {
-    width: calc(100% - 2.5rem);
+    width: 100%;
     aspect-ratio: 560 / 346;
     background-size: cover;
     background-position: center;
