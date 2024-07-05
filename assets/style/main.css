@@ -864,6 +864,7 @@ ul {
   font-size: 1.5rem;
   line-height: 1.5;
   color: var(--bright-pink);
+  margin-top: 0.5rem;
 }
 
 #reason .reason__wrapper .reason__title-number {
@@ -881,6 +882,7 @@ ul {
   font-style: normal;
   font-size: 1.25rem;
   line-height: 1.8;
+  margin-bottom: 0.75rem;
 }
 #reason .reason__wrapper p {
   font-family: "Noto Sans JP", sans-serif;
@@ -889,6 +891,11 @@ ul {
   font-size: 1rem;
   line-height: 1.75;
   text-align: left;
+}
+
+#reason .reason__text-wrapper {
+  width: 100%;
+  margin-bottom: 2.25rem;
 }
 
 @media(min-width:1025px) {
@@ -934,6 +941,26 @@ ul {
     font-size: 1rem;
     line-height: 1.75;
     text-align: left;
+  }
+  #reason .reason__text-wrapper {
+    width: 46.67%;
+  }
+  #reason .reason_content-wrapper {
+    margin-bottom: 3rem;
+  }
+  #reason .reason__flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2.5rem;
+  }
+  #reason .reason__flexbox-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2.5rem;
   }
 }
 
