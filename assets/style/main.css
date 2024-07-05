@@ -468,7 +468,7 @@ ul {
   }
 }
 
-@media(min-width:768px) {
+@media(min-width:1460px) {
   #main-visual .main-visual__photo {
     background-image: url('../image/mainVisual_pc.png');
     width: 100%;
@@ -632,5 +632,118 @@ ul {
   }
 }
 
+@media(min-width:768px) and (max-width:1459px) {
+  #main-visual .main-visual__photo {
+    background-image: url('../image/mainVisual_pc.png');
+    width: 100%;
+    height: 40.6875rem;
+    aspect-ratio: 1920 / 651;
+    background-size: cover;
+    background-position: top;
+  }
+  #main-visual .main-visual__laurel-left {
+    background-image: url('../image/mv_frame_left_pc.png');
+    width: 3.2875rem;
+    aspect-ratio: 52.6 / 150;
+    background-size: cover;
+  }
+  #main-visual .main-visual__laurel-right {
+    background-image: url('../image/mv_frame_right_pc.png');
+    width: 3.2875rem;
+    aspect-ratio: 52.6 / 150;
+    background-size: cover;
+  }
+  #main-visual .main-visual__achievement-text {
+    width: 11.25rem;
+    height: 8.3125rem;
+  }
+  #main-visual .university-achievement {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.45;
+    color: var(--dark-gray);
+  }
+  #main-visual .ranking {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 3.375rem;
+    line-height: 1.5;
+    color: var(--bright-pink);
+  }
+  #main-visual .ranking-number {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 4.625rem;
+    line-height: 1.5;
+    color: var(--bright-pink);
+  }
+  #main-visual .main-visual__guide-text h3 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.0625rem;
+    line-height: 1.09;
+    color: var(--dark-gray);
+  }
+  #main-visual .main-visual__guide-text h4 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3.75rem;
+    line-height: 1.42;
+    color: var(--blue);
+  }
+  #main-visual .main-visual__photo {
+    position: relative;
+  }
+  #main-visual .university-achievement {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: calc(30.1625rem - 25.625rem + 1.25rem);
+    margin-top: 7.0625rem;
+  }
+  #main-visual .ranking {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: calc(32.35rem - 25.625rem + 1.25rem);
+    margin-top: 8.875rem;
+  }
+  #main-visual .main-visual__laurel-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: calc(25.625rem - 25.625rem + 1.25rem);
+    margin-top: 6.5rem;
+  }
+
+  #main-visual .main-visual__laurel-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: calc(42.6625rem - 25.625rem + 1.25rem);
+    margin-top: 6.5rem;
+  }
+
+  #main-visual .main-visual__guide-text h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: calc(25.625rem - 25.625rem + 1.25rem);
+    margin-top: 18.5rem;
+  }
+  #main-visual .main-visual__guide-text h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: calc(25.625rem - 25.625rem + 1.25rem);
+    margin-top: 21rem;
+  }
+}
 */
 /* .main-visual ここまで */
