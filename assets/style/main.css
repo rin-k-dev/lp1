@@ -588,7 +588,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 410px;
+
   }
   #main-visual .main-visual__buttons {
     position: absolute;
@@ -608,7 +608,7 @@ ul {
     font-size: 1.5rem;
     line-height: 1.5;
     color: var(--white);
-    width: 21.25rem;
+    width: 20.25rem;
     height: 4.6875rem;
     text-align: center;
     padding-top: 1.25rem;
@@ -743,6 +743,55 @@ ul {
     left: 0;
     margin-left: calc(25.625rem - 25.625rem + 1.25rem);
     margin-top: 21rem;
+  }
+  #main-visual .main-visual__buttons {
+    flex-direction: row;
+    margin-top: 0;
+    gap: 2.5vw;
+    width: 68.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #main-visual .main-visual__buttons {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -2.3438rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #main-visual .main-visual__buttons a {
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--white);
+    width: 23.7%;
+    height: 4.3875rem;
+    text-align: center;
+    padding-top: 1.25rem;
+    border-radius: 2.375rem;
+    transition: all .3s;
+  }
+  #main-visual .main-visual__buttons a:hover {
+    opacity: 0.7;
+  }
+
+  #main-visual .main-visual__buttons a.main-visual__buttons-inquiry {
+    background-color: var(--green);
+  }
+
+  #main-visual .main-visual__buttons a.main-visual__buttons-freetrial {
+    background-color: var(--orange);
+  }
+
+  #main-visual .main-visual__buttons a.main-visual__buttons-request {
+    background-color: var(--teal);
   }
 }
 */
