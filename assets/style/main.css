@@ -100,16 +100,19 @@ ul {
   box-shadow: 0px 2px 8px var(--black-opacity);
 }
 
+
 @media(min-width: 768px) {
   #header {
     height: 6.3125rem;
   }
 }
 
+
 #header .header__logo {
   width: 10.375rem;
   aspect-ratio: 166 / 34;
 }
+
 
 @media(min-width: 768px) {
   #header .header__logo {
@@ -183,8 +186,54 @@ ul {
     padding-left: 1.25rem;
   }
 }
-
-@media(min-width:768px) {
+@media(min-width:768px) and (max-width:1299px) {
+  #header #menu ul li a {
+    cursor: pointer;
+    display: block;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.7rem;
+    line-height: 1.8;
+    color: var(--dark-gray);
+  }
+  #header #menu .menu__button {
+    cursor: pointer;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.8;
+    background: transparent linear-gradient(90deg, var(--bright-blue) 0%, var(--soft-blue) 100%) 0% 0% no-repeat padding-box;
+    border-radius: 31px;
+    color: var(--white);
+    transition: all .3s;
+    height: 3.8125rem;
+    width: 12.625rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    #header #menu .menu__button:hover {
+    opacity: 0.7;
+  }
+  #header .header__menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.25rem;
+    margin-top: 5%;
+    gap: 3vw;
+  }
+  #header .header__menu-container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+  }
+}
+@media(min-width:1300px) {
   #header #menu ul li a {
     cursor: pointer;
     display: block;
@@ -213,44 +262,9 @@ ul {
     align-items: center;
     justify-content: center;
   }
-  #header #menu .menu__button:hover {
+    #header #menu .menu__button:hover {
     opacity: 0.7;
   }
-}
-
-@media(min-width:768px) and (max-width:1300px) {
-  #header #menu ul li a {
-    cursor: pointer;
-    display: block;
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 0.7rem;
-    line-height: 1.8;
-    color: var(--dark-gray);
-  }
-  #header #menu .menu__button {
-    font-size: 0.875rem;
-    width: 10rem;
-    height: 3.125rem;
-    white-space: nowrap;
-  }
-}
-
-#header #menu ul li a:hover {
-  color: var(--blue);
-}
-
-#header .header__container {
-  display: flex;
-}
-
-#header .header__title {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-@media(min-width:768px) {
   #header .header__menu-container {
     display: flex;
     justify-content: space-between;
@@ -267,16 +281,18 @@ ul {
   }
 }
 
-@media(min-width:768px) and (max-width:1300px) {
-  #header .header__menu-container {
-    margin-left: 2rem;
-    gap: 3vw;
-  }
-  #header .header__menu-container ul {
-    gap: 3vw;
-  }
+#header #menu ul li a:hover {
+  color: var(--blue);
 }
 
+#header .header__container {
+  display: flex;
+}
+
+#header .header__title {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 /* #header ここまで */
 
 /* .main-visual ここから */
