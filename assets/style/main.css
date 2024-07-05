@@ -807,5 +807,13 @@ ul {
 /* .main-visual ここまで */
 
 /* #reaeson ここから */
+#reason {
+  margin-top: 13.5rem;
+}
 
+@media(min-width:768px){
+  #reason {
+    margin-top: 6.8125rem;
+  }
+}
 /* #reaeson ここまで */
