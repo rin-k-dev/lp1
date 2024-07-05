@@ -908,6 +908,11 @@ ul {
   }
   #reason .reason__wrapper {
     margin-top: 2rem;
+    padding-top: 2rem;
+  }
+
+  #reason .reason__wrapper .reason__text-wrapper p {
+    margin-top: 1rem;
   }
 
   #reason .reason__wrapper .reason__text-wrapper {
@@ -915,7 +920,7 @@ ul {
   }
 
   #reason .reason__wrapper  img.pc_only {
-    margin-top: 0;
+    margin-top: 0em;
   }
 
   #reason .reason__wrapper img.pc_only {
