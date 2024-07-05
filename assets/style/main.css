@@ -305,7 +305,7 @@ ul {
     height: auto;
     aspect-ratio: 375 / 250;
     background-size: cover;
-    background-position: 0 0;
+    background-position: 100% 100%;
   }
 
   #main-visual .main-visual__achievement-container {
@@ -585,12 +585,11 @@ ul {
   #main-visual .main-visual__buttons {
     flex-direction: row;
     margin-top: 0;
-    gap: 2.5rem;
+    gap: 3.63rem;
     width: 68.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
   #main-visual .main-visual__buttons {
     position: absolute;
@@ -614,6 +613,9 @@ ul {
     height: 4.6875rem;
     text-align: center;
     padding-top: 1.25rem;
+    padding-left: 3.975rem;
+    padding-right: 3.975rem;
+    white-space: nowrap;
     border-radius: 2.375rem;
     transition: all .3s;
   }
