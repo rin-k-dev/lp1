@@ -871,7 +871,7 @@ ul {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 3rem;
+  font-size: 2.25rem;
   line-height: 1;
   color: var(--bright-pink);
 }
@@ -899,6 +899,10 @@ ul {
 }
 
 @media(min-width:1400px) {
+  #reason .reason__container {
+    width: 75rem;
+    margin: 0 1.25rem;
+  }
   #reason .reason__wrapper {
     margin-top: 2rem;
   }
@@ -1030,3 +1034,7 @@ ul {
   }
 }
 /* #reaeson ここまで */
+
+/* .entry ここから */
+
+/* .entry ここまで */
