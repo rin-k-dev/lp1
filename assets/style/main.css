@@ -585,7 +585,7 @@ ul {
   #main-visual .main-visual__buttons {
     flex-direction: row;
     margin-top: 0;
-    gap: 3.63rem;
+    gap: 2.5rem;
     width: 68.75rem;
     display: flex;
     align-items: center;
@@ -609,7 +609,7 @@ ul {
     font-size: 1.5rem;
     line-height: 1.5;
     color: var(--white);
-    width: 20.25rem;
+    width: 21.25rem;
     height: 4.6875rem;
     text-align: center;
     padding-top: 1.25rem;
@@ -633,6 +633,12 @@ ul {
 
   #main-visual .main-visual__buttons a.main-visual__buttons-request {
     background-color: var(--teal);
+  }
+  #main-visual .main-visual__buttons-container {
+    width: 75rem;
+    margin: 0 auto;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
   }
 }
 
