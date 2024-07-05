@@ -901,10 +901,21 @@ ul {
 @media(min-width:1400px) {
   #reason .reason__container {
     width: 75rem;
-    margin: 0 1.25rem;
+    margin: 0 auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 1rem;
   }
   #reason .reason__wrapper {
     margin-top: 2rem;
+  }
+
+  #reason .reason__wrapper .reason__text-wrapper {
+    margin-top: 0;
+  }
+
+  #reason .reason__wrapper  img.pc_only {
+    margin-top: 0;
   }
 
   #reason .reason__wrapper img.pc_only {
@@ -921,6 +932,8 @@ ul {
     font-size: 1.75rem;
     line-height: 1.29;
     color: var(--bright-pink);
+    margin: 0;
+    padding: 0;
   }
 
   #reason .reason__wrapper .reason__title-number {
@@ -937,6 +950,9 @@ ul {
     font-style: normal;
     font-size: 1.5rem;
     line-height: 1.75;
+    text-align: left;
+    margin: 0;
+    padding: 0;
   }
   #reason .reason__wrapper p {
     font-family: "Noto Sans JP", sans-serif;
@@ -947,7 +963,7 @@ ul {
     text-align: left;
   }
   #reason .reason__text-wrapper {
-    width: 46.67%;
+    width: 35rem;
   }
   #reason .reason_content-wrapper {
     margin-bottom: 3rem;
@@ -970,7 +986,7 @@ ul {
 
 @media(min-width:768px) and (max-width:1399px) {
   #reason .reason__wrapper {
-    margin-top: 2rem;
+    margin-top: 1.8rem;
   }
 
   #reason .reason__wrapper img.pc_only {
@@ -1023,14 +1039,14 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: 20.8%;
   }
   #reason .reason__flexbox-reverse {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: 20.8%;
   }
 }
 /* #reaeson ここまで */
