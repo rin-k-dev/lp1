@@ -300,10 +300,10 @@ ul {
   #main-visual .main-visual__photo {
     background-image: url('../image/mainVisual_sp.png');
     width: 100%;
-    height: 15.625rem;
+    height: auto;
     aspect-ratio: 375 / 250;
     background-size: cover;
-    background-position: 100% 100%;
+    background-position: 0 0;
   }
 
   #main-visual .main-visual__achievement-container {
@@ -377,52 +377,52 @@ ul {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 11%;
-    margin-top: 9.33%;
+    margin-left: 2.5rem;
+    margin-top: 2.1875rem;
   }
   #main-visual .ranking {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 16%;
-    margin-top: 13.6%;
+    margin-left: 3.8125rem;
+    margin-top: 3.1875rem;
   }
   #main-visual .main-visual__laurel-left {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 4.27%;
-    margin-top: 9.07%;
+    margin-left: 1rem;
+    margin-top: 2.125rem;
   }
 
   #main-visual .main-visual__laurel-right {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 37.11%;
-    margin-top: 9.07%;
+    margin-left: 8.6988rem;
+    margin-top: 2.125rem;
   }
 
   #main-visual .main-visual__guide-text h3 {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 4.27%;
-    margin-top: 31%;
+    margin-left: 1rem;
+    margin-top: 7.3rem;
   }
   #main-visual .main-visual__guide-text h4 {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 4.27%;
-    margin-top: 38.13%;
+    margin-left: 1rem;
+    margin-top: 8.8938rem;
   }
   #main-visual .main-visual__buttons {
     position: absolute;
     width: 100%;
     bottom: 0;
     left: 0;
-    margin-bottom: -51.2%;
+    margin-bottom: -12rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -466,6 +466,10 @@ ul {
   #main-visual .main-visual__buttons a.main-visual__buttons-request {
     background-color: var(--teal);
   }
+}
+
+@media(min-width:768px) {
+
 }
 /*
 @media(min-width:1700px) {
