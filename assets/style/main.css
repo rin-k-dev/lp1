@@ -56,7 +56,7 @@ ul {
 }
 
 .sp_only {
-  display: block;
+  display: inline-block;
 }
 .pc_only {
   display: none;
@@ -69,10 +69,10 @@ ul {
 }
 
 @media(min-width:768px) {
-  .sponly {
+  .sp_only {
     display: none;
   }
-  .pconly {
+  .pc_only {
     display: block;
   }
   .container {
