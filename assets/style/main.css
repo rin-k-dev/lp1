@@ -1144,6 +1144,12 @@ img {
   margin-top: 0.75rem;
   padding-top: 1rem;
 }
+
+@media(max-width:767px) {
+  #entry__position-02 {
+    margin-top: -0.625rem;
+}
+
 @media(min-width:1300px) {
   .entry__container {
     width: 75rem;
