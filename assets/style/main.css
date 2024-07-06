@@ -92,6 +92,7 @@ ul {
 /* #header ここから */
 
 #header {
+  width: 100%;
   position: sticky;
   z-index: 100;
   top: 0;
@@ -920,7 +921,9 @@ ul {
   }
 
   #reason .reason__wrapper  img.pc_only {
-    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 0.625rem;
   }
 
   #reason .reason__wrapper img.pc_only {
