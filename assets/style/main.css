@@ -861,6 +861,7 @@ ul {
   margin-right: auto;
   aspect-ratio: 343 / 220;
   border-radius: 0.75rem;
+  display: block;
 }
 
 #reason .reason__wrapper h3 {
@@ -932,6 +933,10 @@ ul {
 
   #reason .reason__wrapper .reason__text-wrapper {
     margin-top: 0;
+  }
+
+  #reason .reason__wrapper img.sp_only {
+    display: none;
   }
 
   #reason .reason__content-01  img.pc_only {
@@ -1016,6 +1021,10 @@ ul {
 @media(min-width:768px) and (max-width:1399px) {
   #reason .reason__wrapper {
     margin-top: 1.8rem;
+  }
+
+  #reason .reason__wrapper img.sp_only {
+    display: none;
   }
 
   #reason .reason__wrapper img.pc_only {
@@ -1253,7 +1262,7 @@ ul {
   width: 100%;
 }
 
-@media(min-width:768px) {
+@media(min-width:1300px) {
   #course .course__nav .nav-link, #course .course__nav .nav-link.active {
     width: 35.3125rem;
     height: 4.6875rem;
@@ -1284,7 +1293,48 @@ ul {
     margin: 0 auto;
     padding-top: 1rem;
   }
+  #course .course__tab-container {
+    width: 100%;
+  }
+}
 
+@media(min-width:768px) and (max-width:1299px) {
+  #course .course__nav .nav-link, #course .course__nav .nav-link.active {
+    width: 18.75rem;
+    height: 4.6875rem;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+  #course .course__title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--dark-gray-opacity);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  #course .nav-link.active .course__title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--dark-gray);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  #course .course__smarttab-container {
+    width: calc(100% - 2.5rem);
+    display: block;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+  #course .course__nav-container {
+    width: 100%;
+  }
+  #course .course__tab-container {
+    width: 100%;
+  }
 }
 
 /* #course ここまで */
