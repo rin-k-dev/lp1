@@ -1101,6 +1101,15 @@ img {
     justify-content: space-between;
     gap: 20.8%;
   }
+  #reason .reason__content-01 h3 {
+    margin-top: 1rem;
+  }
+  #reason .reason__content-02 h3 {
+    margin-top: 1rem;
+  }
+  #reason .reason__content-03 h3 {
+    margin-top: 0.8rem;
+  }
 }
 /* #reaeson ここまで */
 
