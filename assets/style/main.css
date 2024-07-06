@@ -1309,6 +1309,11 @@ img {
     width: 100%;
     border-radius: 0.75rem;
   }
+  #course .course__tab-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+  }
 }
 
 
@@ -1347,6 +1352,7 @@ img {
     width: 100%;
   }
   #course .course__img-area {
+    cursor: pointer;
     width: 33.25rem;
     height: 20.5625rem;
     border-radius: 0.75rem;
@@ -1366,6 +1372,15 @@ img {
     padding-bottom: 2rem;
     padding-left: 2rem;
     padding-right: 1.9375rem;
+  }
+  #course .course__tab-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1.9375rem;
+  }
+  #course .course__tab-content-text {
+    margin-top: 0.5rem;
+    gap: 0.7312rem;
   }
 }
 
@@ -1413,6 +1428,7 @@ img {
     padding-right: 1.9375rem;
   }
   #course .course__img-area {
+    cursor: pointer;
     width: 100%;
     height: auto;
     border-radius: 0.75rem;
@@ -1426,6 +1442,11 @@ img {
   #course .course__tab-content img.pc_only:hover {
     transform: scale(1.2);
     opacity: .7;
+  }
+  #course .course__tab-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.9375rem;
   }
 }
 
