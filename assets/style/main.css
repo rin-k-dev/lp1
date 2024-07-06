@@ -908,24 +908,8 @@ ul {
 }
 
 @media(max-width:767px) {
-  #reason h2 {
-    margin-bottom: 1.0625rem;
-  }
   #reason .reason__content-01 img.sp_only {
     margin-top: 0.625rem;
-  }
-  #reason .reason__content-02 img.sp_only {
-    margin-top: 0;
-  }
-  #reason .reason__content-03 img.sp_only {
-    margin-top: 0;
-  }
-  #reason .reason__wrapper p {
-    margin-top: 0.75rem;
-  }
-  #reason .reason__wrapper img.sp_only {
-    display: block;
-    margin: 0 auto;
   }
 }
 
@@ -1176,9 +1160,14 @@ ul {
     padding-right: 4.4375rem;
     border-radius: 2.375rem;
     white-space: nowrap;
-    height: 4.6
+    height: 4.6875rem;
+  }
   .entry a:hover {
     opacity: .7;
   }
 }
 /* .entry ここまで */
+
+/* #course ここから */
+
+/* #course ここまで */
