@@ -1306,6 +1306,7 @@ img {
     padding-right: 1rem;
   }
   #course .course__tab-content img.sp_only {
+    width: 100%;
     border-radius: 0.75rem;
   }
 }
@@ -1344,6 +1345,16 @@ img {
   }
   #course .course__tab-container {
     width: 100%;
+  }
+  #course .course__tab-content img.pc_only {
+    width: 45.86%;
+    border-radius: 0.75rem;
+  }
+  #course .tab-content .tab-pane {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 1.9375rem;
   }
 }
 
