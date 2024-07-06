@@ -1207,6 +1207,8 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 0.9375rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #course .course__nav .nav-link.active {
@@ -1247,6 +1249,42 @@ ul {
   text-align: center;
 }
 
+#course .course__nav-container {
+  width: 100%;
+}
 
+@media(min-width:768px) {
+  #course .course__nav .nav-link, #course .course__nav .nav-link.active {
+    width: 35.3125rem;
+    height: 4.6875rem;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+  #course .course__title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--dark-gray-opacity);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  #course .nav-link.active .course__title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--dark-gray);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  #course .course__smarttab-container {
+    width: 72.5rem;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+
+}
 
 /* #course ここまで */

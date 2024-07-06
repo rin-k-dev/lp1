@@ -146,28 +146,32 @@
       <section id="course">
         <div class="container">
           <h2>コース・目的</h2>
-          <div id="smarttab">
-            <ul class="course__nav">
-                <li>
-                  <a class="nav-link" href="#tab-1">
-                    <h3 class="course__title">学年別から選ぶ</h3>
-                  </a>
-                </li>
-                <li>
-                  <a class="nav-link" href="#tab-2">
-                    <h3 class="course__title">目的別から選ぶ</h3>
-                  </a>
-                </li>
-            </ul>
-            <div class="tab-content tab-content-width">
-                <div id="tab-1" class="tab-pane" role="tabpanel">
-                  content1
+            <div class="course__smarttab-container">
+              <div id="smarttab">
+                <div class="course__nav-container">
+                  <ul class="course__nav">
+                    <li>
+                      <a class="nav-link" href="#tab-1">
+                        <h3 class="course__title">学年別から選ぶ</h3>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="#tab-2">
+                        <h3 class="course__title">目的別から選ぶ</h3>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                <div id="tab-2" class="tab-pane" role="tabpanel">
-                  content2
+                <div class="tab-content course__tab-container">
+                  <div id="tab-1" class="tab-pane" role="tabpanel">
+                    content1
+                  </div>
+                  <div id="tab-2" class="tab-pane" role="tabpanel">
+                    content2
+                  </div>
                 </div>
             </div>
-        </div>
+          </div>
         </div>
       </section>
        <!-- #course ここまで-->
