@@ -819,8 +819,10 @@ ul {
 }
 
 #reason .reason__container {
+  /*
   width: calc(100% - 2rem);
   margin: 0 auto;
+  */
 }
 
 #reason h2 {
@@ -1107,9 +1109,24 @@ ul {
 @media(min-width:1300px) {
   .entry__container {
     width: 75rem;
-    margin: 0 auto 4.5rem;
+    margin: 3.875rem auto 4.5rem;
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+  .entry a {
+    width: 22.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 1.25rem;
+    padding-left: 4.4375rem;
+    padding-right: 4.4375rem;
+    border-radius: 2.375rem;
+    white-space: nowrap;
+    height: 4.6875rem;
+  }
+
+  .entry a:hover {
+    opacity: .7;
   }
 }
 
