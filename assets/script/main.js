@@ -23,6 +23,18 @@ $(document).ready(function() {
       transition: {
         animation: 'none', // Animation effect on navigation, none|fade|slideHorizontal|slideVertical|slideSwing|css(Animation CSS class also need to specify)
       },
+      style: { // CSS Class settings
+        mainCss: 'st',
+        navCss: 'course__nav',
+        navLinkCss: 'nav-link',
+        contentCss: 'tab-content',
+        contentPanelCss: 'tab-pane',
+        themePrefixCss: 'st-theme-',
+        justifiedCss: 'st-justified',
+        anchorDefaultCss: 'default',
+        anchorActiveCss: 'active',
+        loaderCss: 'st-loading'
+    },
     });
   });
 });

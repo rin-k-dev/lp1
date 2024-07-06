@@ -1194,4 +1194,59 @@ ul {
     margin-bottom: 2rem;
   }
 }
+
+.st-theme-elite {
+  border: none;
+}
+
+.st>.tab-content {
+  background-color: var(--very-light-blue);
+}
+
+#course .course__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 0.9375rem;
+}
+
+#course .course__nav .nav-link.active {
+  display: inline-block;
+  background-color: var(--very-light-blue);
+}
+
+#course .course__nav .nav-link {
+  display: inline-block;
+  background-color: var(--light-gray-alt);
+}
+
+#course .course__nav .nav-link {
+  width: 10.25rem;
+  height: 4.125rem;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  padding-top: 1rem;
+}
+
+#course .course__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--dark-gray-opacity);
+  font-size: 1.125rem;
+  line-height: 2;
+  text-align: center;
+}
+
+#course .nav-link.active .course__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--dark-gray);
+  font-size: 1.125rem;
+  line-height: 2;
+  text-align: center;
+}
+
+
+
 /* #course ここまで */
