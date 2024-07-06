@@ -1377,7 +1377,6 @@ img {
   }
   #course .course__tab-content img.pc_only {
     width: 100%;
-
     transition: .3s all;
   }
   #course .course__tab-content img.pc_only:hover {
@@ -1457,7 +1456,6 @@ img {
   }
   #course .course__tab-content img.pc_only {
     width: 100%;
-
     transition: .3s all;
   }
   #course .course__tab-content img.pc_only:hover {
