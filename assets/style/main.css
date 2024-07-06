@@ -1346,9 +1346,20 @@ img {
   #course .course__tab-container {
     width: 100%;
   }
-  #course .course__tab-content img.pc_only {
-    width: 45.86%;
+  #course .course__img-area {
+    width: 33.25rem;
+    height: 20.5625rem;
     border-radius: 0.75rem;
+    overflow: hidden;
+  }
+  #course .course__tab-content img.pc_only {
+    width: 100%;
+
+    transition: .3s all;
+  }
+  #course .course__tab-content img.pc_only:hover {
+    transform: scale(1.2);
+    opacity: .7;
   }
   #course .tab-content .tab-pane {
     padding-top: 2rem;
