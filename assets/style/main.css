@@ -55,6 +55,10 @@ ul {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
 .sp_only {
   display: inline-block;
 }
@@ -1259,6 +1263,9 @@ ul {
 }
 
 #course .course__nav-container {
+  width: 100%;
+}
+#course .course__tab-container {
   width: 100%;
 }
 
