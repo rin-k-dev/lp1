@@ -1406,6 +1406,27 @@ img {
   #course .course__tab-container {
     width: 100%;
   }
+  #course .tab-content .tab-pane {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 1.9375rem;
+  }
+  #course .course__img-area {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    overflow: hidden;
+  }
+  #course .course__tab-content img.pc_only {
+    width: 100%;
+
+    transition: .3s all;
+  }
+  #course .course__tab-content img.pc_only:hover {
+    transform: scale(1.2);
+    opacity: .7;
+  }
 }
 
 /* #course ここまで */
