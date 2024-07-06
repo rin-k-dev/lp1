@@ -1265,9 +1265,14 @@ img {
 #course .course__nav-container {
   width: 100%;
 }
-#course .course__tab-container {
-  width: 100%;
+
+@media(max-width:767px) {
+  #course .course__tab-container {
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+  }
 }
+
 
 @media(min-width:1300px) {
   #course .course__nav .nav-link, #course .course__nav .nav-link.active {
