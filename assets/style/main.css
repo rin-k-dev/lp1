@@ -1137,5 +1137,18 @@ ul {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
   }
+  .entry a {
+    width: 22.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 1.25rem;
+    padding-left: 4.4375rem;
+    padding-right: 4.4375rem;
+    border-radius: 2.375rem;
+    white-space: nowrap;
+    height: 4.6
+  .entry a:hover {
+    opacity: .7;
+  }
 }
 /* .entry ここまで */
