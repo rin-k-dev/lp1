@@ -1748,6 +1748,8 @@ img {
     line-height: 2.15;
     color: var(--dark-gray);
     display: inline-block;
+    margin-left: 1.9375rem;
+    margin-top: 1.75rem;
   }
 }
 /* #footer ここまで */
