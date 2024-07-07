@@ -1632,6 +1632,7 @@ img {
 
 #entry__position-03 {
   margin-top: 3.8125rem;
+  margin-bottom: 0;
 }
 @media(min-width:768px) {
   #entry__position-03 {
