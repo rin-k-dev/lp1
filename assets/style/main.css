@@ -1712,7 +1712,7 @@ img {
   #info .info__img-area img.sp_only {
     width: 104%;
     aspect-ratio: 390 / 170;
-    object-fit: cover;
+    object-fit: fill;
     object-position: 0 50%;
   }
 }
@@ -1752,7 +1752,7 @@ img {
     width: 100%;
     height: 20rem;
     aspect-ratio: 960 / 320;
-    object-fit: cover;
+    object-fit: fill;
     display: block;
     cursor: pointer;
     transition: all .3s ease-out;
@@ -1797,7 +1797,7 @@ img {
     width: 100%;
     height: auto;
     aspect-ratio: 960 / 320;
-    object-fit: cover;
+    object-fit: fill;
     display: block;
     cursor: pointer;
     transition: all .3s ease-out;
