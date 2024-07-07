@@ -1560,5 +1560,19 @@ img {
     border: 0.1875rem solid var(--medium-gray);
     border-collapse: collapse;
   }
+  #fees .fees__table th,td {
+    border: 0.0625rem solid var(--medium-gray);
+    height: 4.6875rem;
+    text-align: center;
+  }
+  #fees .fees__table th {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-gray);
+    font-size: 1.125rem;
+    line-height: 2;
+    background-color: var(--light-background);
+  }
 }
 /* #fees ここまで */
