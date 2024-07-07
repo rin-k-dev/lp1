@@ -1517,10 +1517,10 @@ img {
     line-height: 2.25;
     background-color: var(--light-background);
   }
-  #fees .fees__table th:nth-child(1), .fees__table td:nth-child(1) {
+  #fees .fees__table th:nth-child(1), #fees .fees__table td:nth-child(1) {
     width: 7.375rem;
   }
-  #fees .fees__table th:nth-child(2), .fees__table td:nth-child(2) {
+  #fees .fees__table th:nth-child(2), #fees .fees__table td:nth-child(2) {
     width: 14rem;
   }
   #fees .fees__table th:nth-child(2) {
