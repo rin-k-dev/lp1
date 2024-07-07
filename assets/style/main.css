@@ -1526,6 +1526,13 @@ img {
   #fees .fees__table th:nth-child(2) {
     padding-right: 1rem;
   }
+  #fees .fees__table td:nth-child(2) {
+    padding-right: 0.5rem;
+  }
+  #fees .fees__table .fees__special-cell {
+    padding-right: 0;
+    padding-left: 1.5rem;
+  }
   #fees .fees__highlight {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
