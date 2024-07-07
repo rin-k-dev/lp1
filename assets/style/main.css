@@ -207,6 +207,7 @@ img {
     gap: 0;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
   }
   #header .header__menu-container ul li {
     margin-top: 0;
