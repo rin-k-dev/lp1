@@ -150,7 +150,8 @@ img {
   #header #menu li {
     padding-top: 1.25rem;
     padding-bottom: 1.3125rem;
-    width: 89.33%;
+    width: 21.875rem;
+    height: 4.1875rem;
     margin: 0 auto;
     border-bottom: var(--white) 1px solid;
   }
