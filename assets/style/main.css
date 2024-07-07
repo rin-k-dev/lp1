@@ -1492,7 +1492,7 @@ img {
 
 @media(max-width:767px) {
   #fees {
-    margin-bottom: 3.4375rem;
+    margin-bottom: 3.625rem;
   }
   #fees h2 {
     margin-left: 0.9375rem;
@@ -1629,3 +1629,12 @@ img {
   }
 }
 /* #fees ここまで */
+
+#entry__position-03 {
+  margin-top: 3.8125rem;
+}
+@media(min-width:768px) {
+  #entry__position-03 {
+    margin-top: 0;
+  }
+}
