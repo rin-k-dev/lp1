@@ -276,6 +276,7 @@ img {
     font-size: 1.25rem;
     line-height: 1.8;
     color: var(--dark-gray);
+    white-space: nowrap;
   }
   #header #menu .menu__button {
     cursor: pointer;
