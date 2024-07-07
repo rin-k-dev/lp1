@@ -1752,4 +1752,11 @@ img {
     margin-top: 1.75rem;
   }
 }
+
+@media(min-width:768px) {
+  #footer {
+    background-color: var(--light-gray);
+    height: 7.5rem;
+  }
+}
 /* #footer ここまで */
