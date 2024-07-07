@@ -1551,6 +1551,14 @@ img {
   #fees h2 {
     font-size: 2.25rem;
     line-height: 1;
+    margin-bottom: 2.5rem;
+  }
+  #fees .fees__table {
+    width: 50%;
+    height: 34.0625rem;
+    margin: 0 auto;
+    border: 0.1875rem solid var(--medium-gray);
+    border-collapse: collapse;
   }
 }
 /* #fees ここまで */
