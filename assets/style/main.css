@@ -1580,5 +1580,27 @@ img {
   #fees .fees__table th:nth-child(2), #fees .fees__table td:nth-child(2) {
     width: 28.25rem;
   }
+  #fees .fees__table th:nth-child(2) {
+    padding-right: 0;
+  }
+  #fees .fees__table td:nth-child(2) {
+    padding-right: 0;
+  }
+  #fees .fees__table .fees__special-cell {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #fees .fees__highlight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--pink);
+    font-size: 2rem;
+    line-height: 1.125;
+  }
+  #fees .fees__yen {
+    font-size: 1.125rem;
+    line-height: 2;
+  }
 }
 /* #fees ここまで */
