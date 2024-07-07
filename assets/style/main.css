@@ -1533,6 +1533,14 @@ img {
     padding-right: 0;
     padding-left: 1.5rem;
   }
+  #fees .fees__table td:nth-child(1) {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 2.25;
+    color: var(--dark-gray);
+  }
   #fees .fees__highlight {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -1580,6 +1588,9 @@ img {
   #fees .fees__table th:nth-child(2), #fees .fees__table td:nth-child(2) {
     width: 28.25rem;
   }
+  #fees .fees__table td:nth-child(1) {
+    padding-top: 0;
+  }
   #fees .fees__table th:nth-child(2) {
     padding-right: 0;
   }
@@ -1589,6 +1600,14 @@ img {
   #fees .fees__table .fees__special-cell {
     padding-right: 0;
     padding-left: 0;
+  }
+  #fees .fees__table td:nth-child(1) {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 2;
+    color: var(--dark-gray);
   }
   #fees .fees__highlight {
     font-family: "Poppins", sans-serif;
