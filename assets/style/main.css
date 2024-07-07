@@ -1478,3 +1478,54 @@ img {
 }
 
 /* #course ここまで */
+
+/* #fees ここから */
+#fees h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--dark-gray);
+  font-size: 1.75rem;
+  line-height: 1.29;
+  text-align: center;
+}
+
+@media(max-width:767px) {
+  #fees h2 {
+
+  }
+  #fees .fees__table {
+    width: 21.4375rem;
+    height: 28.1875rem;
+    margin: 0 auto;
+    border: 0.1875rem solid var(--medium-gray);
+    border-collapse: collapse;
+  }
+  #fees .fees__table th,td {
+    border: 0.0625rem solid var(--medium-gray);
+    height: 4rem;
+    text-align: center;
+  }
+  #fees .fees__table th {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-gray);
+    font-size: 1rem;
+    line-height: 2.25;
+    background-color: var(--light-background);
+  }
+  #fees .fees__highlight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--pink);
+    font-size: 1.75rem;
+    line-height: 1.29;
+  }
+  #fees .fees__yen {
+    font-size: 1rem;
+    line-height: 2.25;
+  }
+}
+/* #fees ここまで */
