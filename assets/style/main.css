@@ -1646,12 +1646,13 @@ img {
 }
 
 @media(max-width:767px) {
+  #info .info__container {
+    display: flex;
+    flex-direction: column;
+  }
   #info .info__content {
     width: 100%;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 0;
   }
   #info .info__content h2 {
     font-family: "Noto Sans JP", sans-serif;
@@ -1681,7 +1682,29 @@ img {
 }
 
 @media(min-width:768px) {
-
+  #info .info__container {
+    display: flex;
+    flex-direction: row;
+  }
+  #info .info__content {
+    width: 50%;
+    position: relative;
+  }
+  #info .info__content h2 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 1.125;
+    color: var(--white);
+  }
+  #info .info__content h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+  }
 }
 
 /* #info ここまで */
@@ -1695,7 +1718,6 @@ img {
 }
 @media(max-width:767px) {
   #footer {
-    text-align: center;
     background-color: var(--light-gray);
     height: 5.1875rem;
   }
@@ -1707,8 +1729,6 @@ img {
     line-height: 2.15;
     color: var(--dark-gray);
     display: inline-block;
-    margin-right: -1rem;
-    margin-top: 1.75rem;
   }
 }
 /* #footer ここまで */
