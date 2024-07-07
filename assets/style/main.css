@@ -1740,6 +1740,7 @@ img {
   #info .info__content {
     width: 100%;
     position: relative;
+    overflow: hidden;
   }
   #info .info__content h2 {
     font-family: "Noto Sans JP", sans-serif;
