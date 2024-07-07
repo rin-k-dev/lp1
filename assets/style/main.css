@@ -1574,5 +1574,11 @@ img {
     line-height: 2;
     background-color: var(--light-background);
   }
+  #fees .fees__table th:nth-child(1), #fees .fees__table td:nth-child(1) {
+    width: 8.8125rem;
+  }
+  #fees .fees__table th:nth-child(2), #fees .fees__table td:nth-child(2) {
+    width: 28.25rem;
+  }
 }
 /* #fees ここまで */
