@@ -1523,6 +1523,9 @@ img {
   #fees .fees__table th:nth-child(2), .fees__table td:nth-child(2) {
     width: 14rem;
   }
+  #fees .fees__table th:nth-child(2) {
+    padding-right: 1rem;
+  }
   #fees .fees__highlight {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
